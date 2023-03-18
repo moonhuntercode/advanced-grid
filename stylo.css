@@ -7,8 +7,8 @@ footer {
 
 main {
   display: grid;
-  grid-template-columns: repeat(2, 200px);
-  grid-template-rows: repeat(3, 350px);
+  grid-template-columns: repeat(auto-fill, minmax(100px, 300px));
+  grid-template-rows: repeat(3, 250px);
   grid-gap: 8rem;
 
   margin-top: 44px;
@@ -16,8 +16,6 @@ main {
   justify-content: center;
   align-items: stretch;
   align-content: center;
-  grid-auto-rows: 500px;
-  grid-auto-flow: column;
 }
 
 h2 {
